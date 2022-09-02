@@ -1,0 +1,22 @@
+[
+    {
+        "name": "theme_info",
+        "theme_name": "TestThemeLeo",
+        "theme_version": "6.0.2",
+        "theme_author": "Leonardo Martinez",
+        "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+        "theme_support_url": "https://support.shopify.com/"
+    },
+    {
+        "name": "Colors",
+        "settings": [
+          {
+            "type": "color",
+            "id": "color_page_bg",
+            "label": "Page background",
+            "default": "#FFFFFF"
+          }
+        ]
+      }
+      
+]
