@@ -1,12 +1,19 @@
 {
-    "sections": {
-      "image_banner": {
-        "type": "image-banner",
-        "settings": {
-        }
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
       }
     },
-    "order": [
-      "image_banner"
-    ]
+    "1662133900dcb4202d": {
+      "type": "mi-seccion",
+      "settings": {
+        "title": "test_section"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "1662133900dcb4202d"
+  ]
 }
