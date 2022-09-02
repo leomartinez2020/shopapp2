@@ -1,8 +1,25 @@
 <h2>Mi seccion de prueba</h2>
 
-"presets": [
+{% schema %}
+{
+  "name": "test_section",
+  "tag": "section",
+  "class": "test_section",
+  "settings": [
     {
-        "category": "test",
-        "name":"mi_seccion"
+      "type": "text",
+      "id": "title",
+      "label": "test_section"
     }
-],
+  ],
+  "presets": [
+    {
+      "name": "test_section",
+      "settings": {
+        "title": "test_section"
+      }
+    }
+  ]
+}
+{% endschema %}
+
