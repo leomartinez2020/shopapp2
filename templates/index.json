@@ -15,8 +15,8 @@
     "1662133900dcb4202d": {
       "type": "mi-seccion",
       "settings": {
-        "title": "test_section",
-        "custom_text_body": "<p><strong>Add your text here<\/strong><\/p>"
+        "title": "My section",
+        "custom_text_body": "<p><strong>My text message<\/strong><\/p>"
       }
     }
   },
