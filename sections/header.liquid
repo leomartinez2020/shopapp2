@@ -1,21 +1,7 @@
 <header>
     <h1>{{ section.settings.title }}</h1>
     <img src="{{ section.settings.image | img_url: 'large' }}" alt="">
-    <div>
-        {{ 'April 14, 2022' | date: '%s' }}
-        {% assign today_date = 'now' | date: '%s' %}
-        <p>Today timestamp: {{ today_date }}</p>
-        <p>Hoy: {{ today_date | date: '%Y-%m-%d %H:%M:%S' }}</p>
-        {% for product in collections['creams'].products %}
-            {% assign created_at = product.created_at | date: '%s' %}
-            <p>{{ product.title }} created at {{ created_at | date: '%s' }}</p>
-            {% if today_date < created_at %}
-                <p>Bazinga, hoy es mas viejo </p>
-            {% else %}
-                <p>Hoy es mas nuevo</p>
-            {% endif %}
-        {% endfor %}
-    </div>
+    <p>Today: {{ 'now' }}</p>
 </header>
 
 {% schema %}
