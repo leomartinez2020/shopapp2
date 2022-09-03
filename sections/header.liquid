@@ -6,7 +6,7 @@
         {% assign today_date = 'now' | date: '%s' %}
         {{ today_date }}
         {% for collection in collections %}
-            {{- collection.title | link_to: collection.url }}
+            {{- collection.title | escape -}}
         {% endfor %}
     </div>
 </header>
