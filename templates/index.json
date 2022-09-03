@@ -8,7 +8,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "title": "",
+        "title": "This is my title for header",
         "image": "shopify:\/\/shop_images\/hand-about-to-pour-stove-top-coffee.jpg"
       }
     },
