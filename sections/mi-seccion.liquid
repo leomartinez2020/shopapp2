@@ -1,15 +1,13 @@
 {{ 'mi-seccion.css' | asset_url | stylesheet_tag }}
 
-<div class="myclass">
   <h2>{{ section.settings.title }}</h2>
   <p>{{ section.settings.custom_text_body }}</p>
-</div>
 
 {% schema %}
 {
   "name": "test_section",
   "tag": "section",
-  "class": "test_section",
+  "class": "myclass",
   "settings": [
     {
       "type": "text",
