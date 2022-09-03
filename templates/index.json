@@ -3,26 +3,22 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "banner_text": "Hey there"
       }
     },
     "header": {
       "type": "header",
-      "settings": {
-        "title": "Oops",
-        "image": "shopify:\/\/shop_images\/Collections_Page_Header.jpg"
-      }
-    },
-    "main_product": {
-      "type": "main-product",
       "settings": {
       }
     },
     "1662133900dcb4202d": {
       "type": "mi-seccion",
       "settings": {
-        "title": "Test Section",
-        "custom_text_body": "<p><strong>Add your text here<\/strong><\/p>"
+        "title": "test_section"
+      }
+    },
+    "main_product": {
+      "type": "main-product",
+      "settings": {
       }
     }
   },
