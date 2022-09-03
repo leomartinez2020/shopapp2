@@ -5,6 +5,11 @@
       "settings": {
       }
     },
+    "header": {
+      "type": "header",
+      "settings": {
+      }
+    },
     "1662133900dcb4202d": {
       "type": "mi-seccion",
       "settings": {
@@ -14,6 +19,7 @@
   },
   "order": [
     "image_banner",
+    "header",
     "1662133900dcb4202d"
   ]
 }
