@@ -4,9 +4,15 @@
       "type": "main-product",
       "settings": {
       }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image-with-text"
   ]
 }
