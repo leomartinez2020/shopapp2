@@ -3,6 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
+        "banner_text": "Wecome to our store"
       }
     },
     "header": {
