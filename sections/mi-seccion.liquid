@@ -1,8 +1,8 @@
 {{ 'mi-seccion.css' | asset_url | stylesheet_tag }}
 
 <div class="myclass">
-  <h2>Mi seccion de prueba</h2>
-  <p>{{ section.settings.title }}</p>
+  <h2>{{ section.settings.title }}</h2>
+  <p>{{ section.settings.custom_text_body }}</p>
 </div>
 
 {% schema %}
