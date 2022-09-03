@@ -6,7 +6,13 @@
         {% assign today_date = 'now' | date: '%s' %}
         <p>Today timestamp: {{ today_date }}</p>
         {% for product in collections['creams'].products %}
-            <p>{{ product.title }} created at {{ product.created_at | date: '%s' }}</p>
+            {% assign created_at = product.created_at | date: '%s' %}
+            <p>{{ product.title }} created at {{ created_at | date: '%s' }}</p>
+            {% if today_date < created_at %}
+                <p>Bazinga, hoy es mas viejo </p>
+            {% else %}
+                <p>Hoy es mas nuevo</p>
+            {% endif %}
         {% endfor %}
     </div>
 </header>
