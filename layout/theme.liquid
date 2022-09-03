@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     {{ content_for_header }}
+    {% style %}
+    :root {
+        --color-background: {{ settings.color_page_bg }};
+    }
+    {% endstyle %}
 </head>
 <body>
     {{ content_for_layout }}
