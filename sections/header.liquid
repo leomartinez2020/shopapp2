@@ -4,10 +4,9 @@
     <div>
         {{ canonical_url }}
         {% assign today_date = 'now' | date: '%s' %}
-        <p>{{ today_date }}</p>
+        <p>Today timestamp: {{ today_date }}</p>
         {% for product in collections['creams'].products %}
-            {{- product.title }}
-            <p>{{ product.created_at }}</p>
+            <p>{{ product.title }} created at {{ product.created_at | date: '%s' }}</p>
         {% endfor %}
     </div>
 </header>
