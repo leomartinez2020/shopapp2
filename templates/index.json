@@ -3,22 +3,26 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
+        "banner_text": ""
       }
     },
     "header": {
       "type": "header",
+      "settings": {
+        "title": "oopsi",
+        "image": "shopify:\/\/shop_images\/Collections_Page_Header.jpg"
+      }
+    },
+    "main_product": {
+      "type": "main-product",
       "settings": {
       }
     },
     "1662133900dcb4202d": {
       "type": "mi-seccion",
       "settings": {
-        "title": "test_section"
-      }
-    },
-    "main_product": {
-      "type": "main-product",
-      "settings": {
+        "title": "test_section",
+        "custom_text_body": "<p>Add your text here<\/p>"
       }
     }
   },
