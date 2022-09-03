@@ -1,6 +1,6 @@
 <header>
     <h1>{{ section.settings.title }}</h1>
-    <img src="{{ section.settings.image | img_url }}" alt="">
+    <img src="{{ section.settings.image | img_url: 'large' }}" alt="">
 </header>
 
 {% schema %}
