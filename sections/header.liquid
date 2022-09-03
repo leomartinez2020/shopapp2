@@ -2,7 +2,7 @@
     <h1>{{ section.settings.title }}</h1>
     <img src="{{ section.settings.image | img_url: 'large' }}" alt="">
     <div>
-        {{ canonical_url }}
+        {{ 'April 14, 2022' | date: '%s' }}
         {% assign today_date = 'now' | date: '%s' %}
         <p>Today timestamp: {{ today_date }}</p>
         <p>Hoy: {{ today_date | date: '%Y-%m-%d %H:%M:%S' }}</p>
