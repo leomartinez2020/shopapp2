@@ -1,0 +1,17 @@
+<div>
+    <p>Image with text</p>
+    <img src="{{ section.settings.image | img_tag }}" alt="">
+</div>
+
+{% schema %}
+{
+    "name": "image-with-text",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "image-with-text label"
+        }
+    ]
+}
+{% endschema %}
