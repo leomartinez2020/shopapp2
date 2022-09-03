@@ -3,27 +3,29 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "banner_text": "Wecome to our store"
       }
     },
     "header": {
       "type": "header",
       "settings": {
-        "title": "This is my title for header",
-        "image": "shopify:\/\/shop_images\/hand-about-to-pour-stove-top-coffee.jpg"
       }
     },
     "1662133900dcb4202d": {
       "type": "mi-seccion",
       "settings": {
-        "title": "My section",
-        "custom_text_body": "<p><strong>My text message<\/strong><\/p>"
+        "title": "test_section"
+      }
+    },
+    "main_product": {
+      "type": "main-product",
+      "settings": {
       }
     }
   },
   "order": [
     "image_banner",
     "header",
+    "main_product",
     "1662133900dcb4202d"
   ]
 }
