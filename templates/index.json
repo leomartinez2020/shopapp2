@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "banner_text": ""
+        "banner_text": "Hey there"
       }
     },
     "header": {
