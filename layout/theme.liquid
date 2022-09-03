@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {{ content_for_header }}
     {% style %}
     :root {
         --color-background: {{ settings.color_page_bg }};
     }
     {% endstyle %}
+    {{ content_for_header }}
 </head>
 <body>
     {{ content_for_layout }}
