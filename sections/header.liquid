@@ -1,0 +1,22 @@
+<header>
+    <h1>This is my header</h1>
+    <img src="{{ section.settings.image | img_url }}" alt="">
+</header>
+
+{% schema %}
+{
+    "name": "header",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "test_section"
+        },
+        {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Header image"
+        }
+    ]
+}
+{% endschema %}
