@@ -1,6 +1,6 @@
 <div>
     <p>Image with text</p>
-    <img src="{{ section.settings.image | image_url }}" alt="">
+    <img src="{{ section.settings.image | image_url: 'medium' }}" alt="">
 </div>
 
 {% schema %}
