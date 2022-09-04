@@ -1,6 +1,6 @@
-<h2>My product</h2>
+<h2>My products</h2>
 {% for item in collections['creams'].products %}
-    <p>{{ item.title }}</p>
+    <p>{{ item.title }} from <span>{{ item.metafields.custom.planeta.value }}</span></p>
 {% endfor %}
 {% schema %}
 {
