@@ -13,6 +13,12 @@
         "image": "shopify:\/\/shop_images\/Collections_Page_Header.jpg"
       }
     },
+    "1662266294bc8e8403": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hand-about-to-pour-stove-top-coffee.jpg"
+      }
+    },
     "main_product": {
       "type": "main-product",
       "settings": {
@@ -29,6 +35,7 @@
   "order": [
     "image_banner",
     "header",
+    "1662266294bc8e8403",
     "main_product",
     "1662133900dcb4202d"
   ]
