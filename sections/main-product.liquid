@@ -1,5 +1,7 @@
 <h2>My product</h2>
-
+{% for item in collections['creams'].products %}
+    <p>{{ item }}</p>
+{% endfor %}
 {% schema %}
 {
     "name": "main-product"
